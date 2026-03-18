@@ -12,7 +12,8 @@ dist
 dist-ssr
 *.local
 
-# Editor directories and files
+
+
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,5 +23,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-.gitignore
-pnpm-lock.yaml
+
