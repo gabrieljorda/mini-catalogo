@@ -5,9 +5,9 @@ export function ProductList({ products, onSelect }) {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       {products.map(product => (
         <ProductCard
-          key={product.id}
-          product={product}
-          onClick={() => onSelect?.(product)}
+        key={product.id}
+        product = {product}
+        onclick = {onSelect}
         />
       ))}
     </div>

@@ -15,7 +15,7 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/favoritos" className="text-zinc-50">
+              <Link to="/favorites" className="text-zinc-50">
                 Favoritos
               </Link>
             </li>

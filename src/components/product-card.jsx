@@ -1,6 +1,11 @@
 import { Heart } from "lucide-react";
-
+import { useNavigate } from "react-router-dom";
 export function ProductCard({ product }) {
+  const navigate = useNavigate()
+
+  function handleViewDetails() {
+    navigate(`/detalhe-prduto/${product.id}`)
+  }
   return (
     <div className="bg-zinc-950 p-4 rounded shadow-md text-white">
       <img
@@ -16,7 +21,7 @@ export function ProductCard({ product }) {
       </div>
 
       <div className="flex gap-2 mt-2">
-        <button className="flex-1 bg-blue-500 text-white py-1 rounded">
+        <button onClick={handleViewDetails} className="flex-1 bg-blue-500 text-white py-1 rounded">
           Ver detalhes
         </button>
 
