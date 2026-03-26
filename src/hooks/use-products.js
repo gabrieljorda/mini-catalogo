@@ -9,6 +9,8 @@ export function useProducts() {
     async function getProducts() {
         setLoading(true)
 
+        await new Promise(resolve => setTimeout(resolve, 2000))
+
         try {
             const response = await fetch('http://localhost:3333/products');
             const data = await response.json();

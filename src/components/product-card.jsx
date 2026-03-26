@@ -1,7 +1,11 @@
 import { Heart } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { useFavorites } from "../context/favorites-context";
 export function ProductCard({ product }) {
   const navigate = useNavigate()
+  const {favorites , toggleFavorite} = useFavorites()
+
+  const isFavorite = favorites.some(item => item.id === product.id)
 
   function handleViewDetails() {
     navigate(`/detalhe-prduto/${product.id}`)
@@ -25,8 +29,8 @@ export function ProductCard({ product }) {
           Ver detalhes
         </button>
 
-        <button className="text-red-500">
-          <Heart />
+        <button onClick={()=>toggleFavorite(product)}>
+          {isFavorite ? <Heart fill="red" /> : <Heart  /> }
         </button>
       </div>
     </div>

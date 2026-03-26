@@ -1,23 +1,23 @@
-export const products  = [
-  {
-    id: "1",
-    name: "Notebook Gamer",
-    price: 4599.9,
-    description: "Notebook gamer com alto desempenho para jogos e programação.",
-    image: "https://www.bing.com/th/id/OIP.CkZJsOTK66jurhdjEH49xwHaE7?w=305&h=211&c=8&rs=1&qlt=90&o=6&cb=defcache1&dpr=1.3&pid=3.1&rm=2&defcache=1",
-  },
-  {
-    id: "2",
-    name: "Mouse Sem Fio",
-    price: 129.99,
-    description: "Mouse sem fio ergonômico com alta precisão.",
-    image: "https://www.bing.com/th/id/OIP.PcV56U0XmzYaVmq0-k9n1AHaHa?w=204&h=211&c=8&rs=1&qlt=90&o=6&cb=defcache1&dpr=1.3&pid=3.1&rm=2&defcache=1",
-  },
-  {
-    id: "3",
-    name: "Teclado Mecânico",
-    price: 299.9,
-    description: "Teclado mecânico com switches red e iluminação RGB.",
-    image: "https://www.bing.com/th/id/OIP.bPl3R1qP-Agt5mcttILp1QHaEK?w=313&h=211&c=8&rs=1&qlt=90&o=6&cb=defcache1&dpr=1.3&pid=3.1&rm=2&defcache=1",
-  },
-];
+// export const products  = [
+//   {
+//     id: "1",
+//     name: "Notebook Gamer",
+//     price: 4599.9,
+//     description: "Notebook gamer com alto desempenho para jogos e programação.",
+//     image: "https://www.bing.com/th/id/OIP.CkZJsOTK66jurhdjEH49xwHaE7?w=305&h=211&c=8&rs=1&qlt=90&o=6&cb=defcache1&dpr=1.3&pid=3.1&rm=2&defcache=1",
+//   },
+//   {
+//     id: "2",
+//     name: "Mouse Sem Fio",
+//     price: 129.99,
+//     description: "Mouse sem fio ergonômico com alta precisão.",
+//     image: "https://www.bing.com/th/id/OIP.PcV56U0XmzYaVmq0-k9n1AHaHa?w=204&h=211&c=8&rs=1&qlt=90&o=6&cb=defcache1&dpr=1.3&pid=3.1&rm=2&defcache=1",
+//   },
+//   {
+//     id: "3",
+//     name: "Teclado Mecânico",
+//     price: 299.9,
+//     description: "Teclado mecânico com switches red e iluminação RGB.",
+//     image: "https://www.bing.com/th/id/OIP.bPl3R1qP-Agt5mcttILp1QHaEK?w=313&h=211&c=8&rs=1&qlt=90&o=6&cb=defcache1&dpr=1.3&pid=3.1&rm=2&defcache=1",
+//   },
+// ];
