@@ -10,14 +10,14 @@ return (
         value={minPrince}
         onChange={(e) => onMinPriceChange(e.target.value)} 
         placeholder="Preço mínimo"
-        className="p-2 bg-zinc-800 rounded  outline-0"
+        className=" p-2 w-full bg-zinc-800 rounded  outline-0"
         />
         <input 
         type="number"
         value={maxPrice}
         onChange={(e) => onMaxPriceChange(e.target.value)} 
         placeholder="Preço máximo"
-        className="p-2 bg-zinc-800 rounded  outline-0"
+        className=" p-2 w-full bg-zinc-800 rounded  outline-0"
         />
     </div>
 )

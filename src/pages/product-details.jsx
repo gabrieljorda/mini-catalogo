@@ -3,11 +3,16 @@ import { useProducts } from "../hooks/use-products"
 
 export function ProductsDetails() {
     const navigate = useNavigate()
-    const {data} = useProducts()
+    const {data, loading} = useProducts()
     
 
     const { id } = useParams()
     const product = data.find(product => product.id === id)
+
+    if(loading){ 
+        return <p>Carregando...</p>
+    }
+
     if (!product) {
         return <p>Produto não encontrado!</p>
     }
